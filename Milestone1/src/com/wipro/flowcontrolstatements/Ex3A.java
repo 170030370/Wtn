@@ -9,10 +9,11 @@ public class Ex3A {
 		}
 		else
 		{
-			for(int i=0;i<l;i++)
+			for(int i=0;i<l-1;i++)
 			{
-			System.out.print(" "+args[i]);
+			System.out.print(""+args[i]+",");
 			}
+			System.out.println(""+args[l-1]);
 		}
 	}
 }
