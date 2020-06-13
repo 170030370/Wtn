@@ -2,9 +2,13 @@ package com.wipro.flowcontrolstatements;
 
 public class Ex9A {
 	public static void main(String[] args) {
-		int n=Integer.parseInt(args[0]);
-		if(n>0)
+		if(args.length==0)
 		{
+			System.out.println("Please enter month in numbers");
+		}
+		else
+		{
+		int n=Integer.parseInt(args[0]);
 		switch(n)
 		{
 		case 1:
@@ -47,9 +51,5 @@ public class Ex9A {
 			System.out.println("Invalid Match");
 		}
 	  }
-		else
-		{
-			System.out.println("Please enter month in numbers");
-		}
 	}
 }
