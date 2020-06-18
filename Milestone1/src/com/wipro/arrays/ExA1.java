@@ -8,7 +8,7 @@ public class ExA1 {
 		{
 			a[i]=Integer.parseInt(args[i]);
 		}
-		int sum=0,avg;
+		int sum=0;
 		for(i=0;i<args.length;i++)
 		{
 			sum=sum+a[i];
