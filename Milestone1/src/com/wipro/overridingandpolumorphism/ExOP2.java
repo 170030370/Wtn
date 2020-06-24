@@ -1,4 +1,4 @@
-package overridingandpolymorphism;
+package com.wipro.overridingandpolumorphism;
 
 class Shape {
 	void draw()
